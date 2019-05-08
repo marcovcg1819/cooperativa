@@ -6,7 +6,7 @@ public class DireccionCompleta {
 	private String numeroCasa;
 	private String municipio;
 	public DireccionCompleta() {
-		super();
+		
 	}
 	public String getCalle() {
 		return calle;
