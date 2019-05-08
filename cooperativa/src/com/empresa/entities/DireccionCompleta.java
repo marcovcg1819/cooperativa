@@ -6,7 +6,9 @@ public class DireccionCompleta {
 	private String numeroCasa;
 	private String municipio;
 	public DireccionCompleta() {
-		
+		Persona per = new Persona();
+		per.setNombres("Gladis Guzman");
+		per.setApellidos("Esperanza");
 	}
 	public String getCalle() {
 		return calle;
