@@ -9,6 +9,7 @@ public class DireccionCompleta {
 		Persona per = new Persona();
 		per.setNombres("Gladis Guzman");
 		per.setApellidos("Esperanza");
+		per.setNumeroDocumento("2222222222");
 	}
 	public String getCalle() {
 		return calle;
